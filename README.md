@@ -61,10 +61,8 @@ Se analizan principalmente los siguientes países de América Latina:
 Los datos provienen de fuentes públicas y confiables, incluyendo:
 
 - [Google drive HENRY](https://drive.google.com/file/d/18FGvT2x1nqA5TQ22P5FyJ5eLXlHprqzj/view)
-- [Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19)
-- [Ministerios de Salud locales]
 
-Los datasets se encuentran en la carpeta [`./Data`](./data/), tanto los datos crudos como procesados
+Los datasets se encuentran en la carpeta [`Data`](./Data/), tanto los datos crudos como procesados
 
 ---
 
@@ -109,7 +107,7 @@ Entre las más destacadas se encuentran:
 - Comparación regional del crecimiento de contagios
 - Mapas de calor y tendencias acumuladas
 
-➡️ Podés explorarlas en detalle en el archivo `PIDA_M4_Daniel_Suarez.pbix` y en el informe completo ubicado en la carpeta [`Informes/`].
+➡️ Podés explorarlas en detalle en el archivo `PIDA_M4_Daniel_Suarez.pbix` y en el informe completo ubicado en la carpeta [`Informes/`](./Informes/).
 
 ---
 
@@ -133,14 +131,14 @@ cd PIM4
 
 ## 📊 Visualizacion del Informe en Power BI
 
-Además del informe detallado disponible en formato Markdown dentro de la carpeta [`informe/`](./informe), existe una visualización interactiva en Power BI que permitirá explorar de forma dinámica los principales indicadores relacionados con el impacto del COVID-19 en Latinoamérica.
+Además del informe detallado disponible en formato Markdown dentro de la carpeta [`Informes/`](./Informes/), existe una visualización interactiva en Power BI que permitirá explorar de forma dinámica los principales indicadores relacionados con el impacto del COVID-19 en Latinoamérica.
 
 🔹 Esta visualización permitirá:
 - Filtrar por país y año.
 - Comparar tasas de mortalidad, vacunación, y casos confirmados.
 - Visualizar relaciones entre variables socioeconómicas, sanitarias y demográficas.
 
-📁 El archivo `.pbix` estara disponible en la carpeta [`Informes/`]
+📁 El archivo `.pbix` estara disponible en la carpeta [`Informes/`](./Informes)
 
 
 ---
