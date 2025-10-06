@@ -82,16 +82,16 @@ Los datasets se encuentran en la carpeta [`./Data`](./data/), tanto los datos cr
 ```
 BYOGENESIS/
 ├── Data/
-│   └── processed/
+│   └── DatosFinalesFiltrado.csv
+│   └── DatosImportar.csv
+│   └── Diccionario_de_datos.xlsx
 ├── Informes/
-│   ├── README.md 
-│   ├── Imagenes/
-│   └── Graficos/
-├── Notebook/
-│   └── processed/
-├── powerbi/
-│   └── informe_covid_latam.pbix
+│   ├── Informe general PIM4.pdf 
+│   ├── PIDA_M4_Daniel_Suarez.pbix
+├── notebook/
+│   └── PIDA_M4_Daniel_Suarez-FINAL.ipynb
 └── README.md
+  
 
 ```
 powerbi
@@ -109,8 +109,7 @@ Entre las más destacadas se encuentran:
 - Comparación regional del crecimiento de contagios
 - Mapas de calor y tendencias acumuladas
 
-➡️ Podés explorarlas en detalle en el archivo `informe_covid_latam.pbix` y en el informe completo ubicado en la carpeta [`informe/`](./informe/).
-
+➡️ Podés explorarlas en detalle en el archivo `PIDA_M4_Daniel_Suarez.pbix` y en el informe completo ubicado en la carpeta [`Informes/`].
 
 ---
 
@@ -127,8 +126,8 @@ Este proyecto se ejecuta en notebooks de Jupyter, por lo que es recomendable con
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/eremohn/LATAM_COVID-19.git
-cd LATAM_COVID-19
+git clone https://github.com/dssuarezca/PIM4.git
+cd PIM4
 ```
 ---
 
@@ -141,18 +140,17 @@ Además del informe detallado disponible en formato Markdown dentro de la carpet
 - Comparar tasas de mortalidad, vacunación, y casos confirmados.
 - Visualizar relaciones entre variables socioeconómicas, sanitarias y demográficas.
 
-📁 El archivo `.pbix` estara disponible en la carpeta [`powerbi/`](./powerbi), o será publicado a través de Power BI Service con un enlace directo aquí.
+📁 El archivo `.pbix` estara disponible en la carpeta [`Informes/`]
 
 
 ---
 ## 🧠 Posibles mejoras
+
 - Implementar una app interactiva con Streamlit o Dash
 
 - Incorporar modelos predictivos (SIR, ARIMA, Prophet)
 
 - Automatizar limpieza de datos con notebooks reutilizables
-
-- Agregar visualizaciones geográficas
 
 ---
 
@@ -162,9 +160,8 @@ Debido al tamaño del archivo crudo (2.4 GB), no se encuentra almacenado directa
 
 Puedes acceder y descargar el dataset desde el siguiente enlace:
 
-- [📊 Dataset de COVID-19 (Google Drive)](https://drive.google.com/file/d/1asTXNEx_IGFDheRIDqPteII12Iz7Ghj2/view?usp=drive_link)
+- [📊 Dataset de COVID-19 (Google Drive)](https://drive.google.com/file/d/18FGvT2x1nqA5TQ22P5FyJ5eLXlHprqzj/view)
 
-Una vez descargado, colocá el archivo dentro del directorio `data/raw/`.
 
 ---
 
